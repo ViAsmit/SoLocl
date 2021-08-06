@@ -3,7 +3,7 @@
 if(isset($_POST['submit'])){
     $to = "asmit.vml.962@gmail.com"; // this is your Email address
     $from = $_POST['email']; // this is the sender's Email address
-    $first_name = $_POST['first_name'];
+    $first_name = $_POST['name'];
     $last_name = $_POST['last_name'];
     $subject = "Form submission";
     $subject2 = "Copy of your form submission";
